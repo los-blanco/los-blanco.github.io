@@ -1,0 +1,36 @@
+body,
+html{
+width: 100%;
+height:100%;
+}
+header h2{
+	font-family: 'Merienda', cursive;
+}
+hr{
+	max-width: 95px;
+	border-width: 3px;
+	
+}
+header.firstweb{
+	background-position: center;
+	background-image: url(header.jpg);
+	background-size: cover;
+	height: 100%;
+}
+header.firstweb hr{
+	margin-top: 200px;
+	margin-bottom:30px;
+}
+header.firstweb h2{
+	font-size: 2rem;
+	
+}
+.btn {
+  font-weight: 70;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn-xl {
+  padding: 1rem 2rem; 
+}
